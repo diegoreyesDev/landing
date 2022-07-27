@@ -1,0 +1,70 @@
+/* font family */
+body {
+    font-family: 'Inconsolata', monospace;
+    background-color: #000000;
+}
+
+/* navbar */
+#navbar {
+    background-color: #959191;
+    border-bottom: 1px solid #e0e0e0;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: #000000;
+    font-size: 15px;
+    font-family: 'Inconsolata', monospace;
+}
+
+#navbar:hover{
+    cursor: pointer;
+    background-color: #000000;
+}
+
+color navbar .bg-color {
+    background-color: transparent;
+}
+
+/* final navbar */
+
+.page-wrapper {
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+/* posicion del titulo */
+.content-wrapper {
+    position: relative;
+    top: 150px;
+}
+
+/* titulo */
+h1 {
+    color: #ffffff;
+    font-family: 'Inconsolata', monospace;
+    font-size: 5em;
+    letter-spacing: -0.04em;
+}
+
+h5 {
+    color: #959191;
+}
+
+/* eliminar subrrayado del hipervinculo */
+A {
+    text-decoration: none;
+}
+
+/* iconos a redes sociales */
+.icon {
+    color: rgb(166, 161, 161);
+    padding: 25px;
+    border-radius: 50%;
+}
+
+.icon:hover {
+    cursor: pointer;
+    background-color: rgb(22, 22, 22);
+}
