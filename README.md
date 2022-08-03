@@ -9,10 +9,10 @@ Página de presentación
 1. [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 2. [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 3. [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
-3. [Font Awesome](https://fontawesome.com/)
-4. [Java](https://www.manualweb.net/java/introduccion-java/)
-5. [Oracle SQL](https://www.javatpoint.com/oracle-tutorial)
-6. [Spring]()
+4. [Font Awesome](https://fontawesome.com/)
+5. [Java](https://www.manualweb.net/java/introduccion-java/)
+6. [Oracle SQL](https://www.javatpoint.com/oracle-tutorial)
+7. [Spring]()
  
 ## Installation
 
