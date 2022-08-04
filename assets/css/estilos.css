@@ -57,6 +57,11 @@ A {
     text-decoration: none;
 }
 
+/* titulos de las paginas */
+h2{
+    color: #ffffff;
+}
+
 /* iconos a redes sociales */
 .icon {
     color: rgb(166, 161, 161);
@@ -69,6 +74,12 @@ A {
     background-color: rgb(22, 22, 22);
 }
 
+/* parrafo acerca de mi */
+p {
+    text-align: justify;
+    color: #959191;
+}
+
 
 /* footer */
 .footer {
@@ -76,12 +87,12 @@ A {
     width: 100%;
     height: 50px;
     position: fixed;
-    bottom: 20px;
+    bottom: 0px;
     left: 0;
     right: 0;
     margin: 0 auto;
     text-align: center;
-    padding: 10px;
+    padding: 0;
     color: #acacac;
     font-size: 12px;
     font-family: 'Saira Condensed', sans-serif;
