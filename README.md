@@ -16,15 +16,14 @@ Portafolio de trabajos realizados como programador
 
 ## Proyecto Construido con las siguientes herramientas
     
-
-*.[Visual Studio Code](https://code.visualstudio.com/)                          : Utilizado para el desarrollo completo del proyecto.
-*.[HTML] (https://developer.mozilla.org/en-US/docs/Web/HTML)                    : utilizada para la estructura base del proyecto.
-*.[CSS] (https://developer.mozilla.org/en-US/docs/Web/CSS)                      : utilizada para darle estilo al proyecto.
-*.[Bootstrap] (https://getbootstrap.com/docs/5.1/getting-started/introduction/) : Utilizado para el diseño general del proyecto.
-*.[FontAwesome] (https://fontawesome.com/)                                      : Utilizada para insertar iconos al proyecto.
-*.[GoogleFont] (https://fonts.google.com/)                                      : Utilizada para el diseño de las fuentes del proyecto. 
-*.[GitBash] (https://www.gitkraken.com/blog/what-is-git-bash)                   : Utilizada para subir el proyecto al repositorio mediante linea de comandos.
-*.[GitHub] (https://github.com/)                                                : Utilizada para montar el repositorio el proyecto.
+[Visual Studio Code](https://code.visualstudio.com/)                          : Utilizado para el desarrollo completo del proyecto.
+[HTML] (https://developer.mozilla.org/en-US/docs/Web/HTML)                    : utilizada para la estructura base del proyecto.
+[CSS] (https://developer.mozilla.org/en-US/docs/Web/CSS)                      : utilizada para darle estilo al proyecto.
+[Bootstrap] (https://getbootstrap.com/docs/5.1/getting-started/introduction/) : Utilizado para el diseño general del proyecto.
+[FontAwesome] (https://fontawesome.com/)                                      : Utilizada para insertar iconos al proyecto.
+[GoogleFont] (https://fonts.google.com/)                                      : Utilizada para el diseño de las fuentes del proyecto. 
+[GitBash] (https://www.gitkraken.com/blog/what-is-git-bash)                   : Utilizada para subir el proyecto al repositorio mediante linea de comandos.
+[GitHub] (https://github.com/)                                                : Utilizada para montar el repositorio el proyecto.
 
 
 ## Proyecto creado por
