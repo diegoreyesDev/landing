@@ -17,23 +17,14 @@ Portafolio de trabajos realizados como programador
 ## Proyecto Construido con las siguientes herramientas
     
 
-    *.<a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>
-   : Utilizado para el desarrollo completo del proyecto.
-   <br>
-    *. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML</a>
-   : utilizada para la estructura base del proyecto.
-    *. <a href="(https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS</a>
-   : utilizada para darle estilo al proyecto.
-    *. <a href="https://getbootstrap.com/docs/5.1/getting-started/introduction/" target="_blank">Bootstrap</a>
-   : Utilizado para el diseño general del proyecto.
-    *. <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>
-   : utilizada para insertar iconos al proyecto.
-    *. <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>
-   : utilizada para subir el proyecto al repositorio mediante linea de comandos.
-   *. <a href="https://www.gitkraken.com/blog/what-is-git-bash" target="_blank">GitHub</a>
-   : utilizada para el diseño de las fuentes del proyecto.
-    *. <a href="https://github.com/" target="_blank">GitHub</a>
-   : utilizada para montar el repositorio el proyecto.
+*.[Visual Studio Code](https://code.visualstudio.com/)                          : Utilizado para el desarrollo completo del proyecto.
+*.[HTML] (https://developer.mozilla.org/en-US/docs/Web/HTML)                    : utilizada para la estructura base del proyecto.
+*.[CSS] (https://developer.mozilla.org/en-US/docs/Web/CSS)                      : utilizada para darle estilo al proyecto.
+*.[Bootstrap] (https://getbootstrap.com/docs/5.1/getting-started/introduction/) : Utilizado para el diseño general del proyecto.
+*.[FontAwesome] (https://fontawesome.com/)                                      : Utilizada para insertar iconos al proyecto.
+*.[GoogleFont] (https://fonts.google.com/)                                      : Utilizada para el diseño de las fuentes del proyecto. 
+*.[GitBash] (https://www.gitkraken.com/blog/what-is-git-bash)                   : Utilizada para subir el proyecto al repositorio mediante linea de comandos.
+*.[GitHub] (https://github.com/)                                                : Utilizada para montar el repositorio el proyecto.
 
 
 ## Proyecto creado por
