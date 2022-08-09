@@ -1,27 +1,33 @@
 # Landing Page
+Portafolio de trabajos realizados como programador
 
-Página de presentación
+## Requisitos del proyecto
+1. Escoger la plataforma donde se subira el proyecto
+2. El respositorio debe contar con perfil real
+    - Nombre real
+    - Fotografia o avatar de ti mismo
+    - Informacion (intereses, busqueda profesional, etc)
+    - Enlaces a otros perfiles digitales(LinkedIn, Facebook, YouTube, etc)
+
+# Acceso a la página
 
 https://diegoreyesdev.github.io/landing/
 
+## Proyecto Construido con las siguientes herramientas
+    
+    *. [Visual Studio Code](https://code.visualstudio.com/)
+    *. [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+    *. [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+    *. [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+    *. [Font Awesome](https://fontawesome.com/)
+    *. [Github](https://github.com/)
 
+## Proyecto creado por
+Diego Aron Reyes Pallacan
 
-## Stack
+## Agradecimientos
+Al equipo docente de Edutecno Adrián Franco y Miguel Parra por el apoyo, paciencia y dedicación.
 
-1. [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-2. [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-3. [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
-4. [Font Awesome](https://fontawesome.com/)
-5. [Java](https://www.manualweb.net/java/introduccion-java/)
-6. [Oracle SQL](https://www.javatpoint.com/oracle-tutorial)
-7. [Spring]()
- 
-## Installation
+A las y los compañeros por las dudas resueltas.
 
-1. `git clone https://github.com/adrianedutecno/landing.git`
-
-2. Open `index.html`. That's it!
-
-## License
-
-The project is under [MIT license](https://choosealicense.com/licenses/mit/).
+A mi familia que siempre encuentran mis trabajos muy lindos.
