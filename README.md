@@ -17,21 +17,21 @@ Portafolio de trabajos realizados como programador
 ## Proyecto Construido con las siguientes herramientas
     
 
-    *. <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>
+<a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>
    : Utilizado para el desarrollo completo del proyecto.
-    *. <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML</a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML</a>
    : utilizada para la estructura base del proyecto.
-    *. <a href="(https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS</a>
+<a href="(https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS</a>
    : utilizada para darle estilo al proyecto.
-    *. <a href="https://getbootstrap.com/docs/5.1/getting-started/introduction/" target="_blank">Bootstrap</a>
+<a href="https://getbootstrap.com/docs/5.1/getting-started/introduction/" target="_blank">Bootstrap</a>
    : Utilizado para el diseño general del proyecto.
-    *. <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>
+<a href="https://fontawesome.com/" target="_blank">Font Awesome</a>
    : utilizada para insertar iconos al proyecto.
-    *. <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>
+<a href="https://fonts.google.com/" target="_blank">Google Fonts</a>
    : utilizada para subir el proyecto al repositorio mediante linea de comandos.
-   *. <a href="https://www.gitkraken.com/blog/what-is-git-bash" target="_blank">GitHub</a>
+<a href="https://www.gitkraken.com/blog/what-is-git-bash" target="_blank">GitHub</a>
    : utilizada para el diseño de las fuentes del proyecto.
-    *. <a href="https://github.com/" target="_blank">GitHub</a>
+<a href="https://github.com/" target="_blank">GitHub</a>
    : utilizada para montar el repositorio el proyecto.
 
 
