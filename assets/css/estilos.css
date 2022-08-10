@@ -80,6 +80,11 @@ p {
     color: #959191;
 }
 
+/* parrafo completo de presentacion */
+#presentacion {
+    margin-bottom: 100px;
+}
+
 
 /* footer */
 .footer {
