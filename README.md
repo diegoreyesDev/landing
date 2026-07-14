@@ -1,37 +1,73 @@
-# Landing Page
-Portafolio de trabajos realizados como programador
+# Diego Reyes Pallacan — Landing Page
 
-## Requisitos del proyecto
-1. Escoger la plataforma donde se subira el proyecto
-2. El repositorio debe contar con perfil real
-    - Nombre real
-    - Fotografía o avatar de ti mismo
-    - Información (intereses, búsqueda profesional, etc.)
-    - Enlaces a otros perfiles digitales(LinkedIn, Facebook, YouTube, etc)
+Portafolio profesional. Página única con diseño responsivo, tema oscuro, cero dependencias externas.
 
-# Acceso a la página
+## Demo
 
-<a href="https://diegoreyesdev.github.io/landing/" target="_blank">Visita mi proyecto en Git Hub</a>
-<br>
+[https://diegoreyesdev.github.io/landing/](https://diegoreyesdev.github.io/landing/)
 
-## Proyecto Construido con las siguientes herramientas
-    
-* [Visual Studio Code](https://code.visualstudio.com/)                          : Utilizado para el desarrollo completo del proyecto.
-* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)                    : utilizada para la estructura base del proyecto.
-* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)                      : utilizada para darle estilo al proyecto.
-* [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/) : Utilizado para el diseño general del proyecto.
-* [FontAwesome](https://fontawesome.com/)                                      : Utilizada para insertar iconos al proyecto.
-* [GoogleFont](https://fonts.google.com/)                                      : Utilizada para el diseño de las fuentes del proyecto. 
-* [GitBash](https://www.gitkraken.com/blog/what-is-git-bash)                   : Utilizada para subir el proyecto al repositorio mediante linea de comandos.
-* [GitHub](https://github.com/)                                                : Utilizada para montar el repositorio el proyecto.
+## Stack
 
+| Capa | Tecnología | Notas |
+|---|---|---|
+| Estructura | HTML5 semántico | Single Page, secciones ancladas |
+| Estilos | CSS3 + Custom Properties | Tema oscuro, responsive, sin frameworks |
+| Interacción | Vanilla JavaScript (ES5 estricto) | Scroll suave, nav toggle, IntersectionObserver |
+| Hosting | GitHub Pages | Despliegue automático desde `main` |
+| Fuentes | System font stack | Sin CDNs externos |
 
-## Proyecto creado por
+## Estructura del proyecto
+
+```
+landing/
+├── index.html              # Página única (SPA)
+├── README.md               # Este archivo
+├── .gitignore
+└── assets/
+    ├── css/
+    │   └── estilos.css     # Estilos completos
+    ├── js/
+    │   └── script.js       # Lógica de navegación
+    ├── img/
+    │   └── ejemplopagina.png
+    └── icons/
+        └── favicon.ico
+```
+
+## Secciones
+
+1. **Hero** — Nombre, rol, enlaces a GitHub, LinkedIn, Email
+2. **Acerca de mí** — Resumen profesional, stack técnico
+3. **Proyectos** — Cards con capturas, descripciones, tags tecnológicos y enlaces
+4. **Contacto** — Canales directos (email, GitHub, LinkedIn)
+
+## Principios de diseño
+
+- **Cero dependencias externas**: sin CDNs, sin frameworks, sin trackers
+- **Carga mínima**: CSS + JS combinados < 8 KB sin comprimir
+- **Tema oscuro nativo**: respeta `prefers-color-scheme` en retina
+- **Accesibilidad**: ARIA labels, focus visible, `prefers-reduced-motion`
+- **Responsive**: mobile-first con breakpoints en 768px y 480px
+
+## Despliegue
+
+El proyecto se despliega automáticamente en GitHub Pages desde la rama `main`.
+
+### Desarrollo local
+
+```bash
+git clone https://github.com/diegoreyesDev/landing.git
+cd landing
+python3 -m http.server 8080
+# Abrir http://localhost:8080
+```
+
+No requiere `npm install` ni build step.
+
+## Autor
+
 Diego Aron Reyes Pallacan
 
-## Agradecimientos
-Al equipo docente de Edutecno Adrián Franco y Miguel Parra por el apoyo, paciencia y dedicación.
-
-A las y los compañeros por las dudas resueltas.
-
-A mi familia que siempre encuentran mis trabajos muy lindos.
+- GitHub: [diegoreyesDev](https://github.com/diegoreyesDev)
+- LinkedIn: [diegoreyes-dev](https://www.linkedin.com/in/diegoreyes-dev/)
+- Email: diegoreyes.dev@gmail.com

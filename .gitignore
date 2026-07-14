@@ -1,0 +1,26 @@
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Dependencias
+node_modules/
+package-lock.json
+
+# Build
+dist/
+build/
+
+# Logs
+*.log
+
+# OS junk
+*.tmp
+*.bak

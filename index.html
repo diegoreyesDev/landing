@@ -1,94 +1,225 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Diego Reyes</title>
-  <!-- favicon -->
-  <link rel="icon" type="image/ico" href="./assets/icons/favicon.ico"/>
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-  <!-- google font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500;700&display=swap" rel="stylesheet">
-  <!-- fontawesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- estilos propios -->
-  <link rel="stylesheet" href="./assets/css/estilos.css" />
+  <meta name="description" content="Diego Reyes Pallacan — Desarrollador Full Stack Java. Portafolio profesional y proyectos.">
+  <meta name="author" content="Diego Reyes Pallacan">
+  <meta name="theme-color" content="#0a0a0a">
+
+  <meta property="og:title" content="Diego Reyes — Desarrollador Full Stack Java">
+  <meta property="og:description" content="Portafolio profesional. Desarrollo web, Spring Boot, Java, gestión de proyectos.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://diegoreyesdev.github.io/landing/">
+  <meta property="og:image" content="https://diegoreyesdev.github.io/landing/assets/img/ejemplopagina.png">
+
+  <title>Diego Reyes — Desarrollador Full Stack Java</title>
+
+  <link rel="icon" type="image/x-icon" href="./assets/icons/favicon.ico">
+  <link rel="stylesheet" href="./assets/css/estilos.css">
 </head>
 
 <body>
-  <!-- barra de navegación -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-color fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <!-- <img src="./assets/img/logo.png" alt="logo"> -->
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+
+  <!-- NAVEGACION -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo" aria-label="Ir al inicio">DR</a>
+      <nav class="nav-links" id="nav-links" aria-label="Navegacion principal">
+        <a href="#sobre-mi" class="nav-link">Acerca de mi</a>
+        <a href="#proyectos" class="nav-link">Proyectos</a>
+        <a href="#contacto" class="nav-link">Contacto</a>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span class="toggle-bar"></span>
+        <span class="toggle-bar"></span>
+        <span class="toggle-bar"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="./presentacion.html">Acerca de mí</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./trabajos.html">Trabajos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contacto.html">Contacto</a>
-          </li>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <h1>Diego Reyes Pallacan</h1>
+        <p class="hero-subtitle">
+          Desarrollador Full Stack Java
+          <span class="divider" aria-hidden="true">|</span>
+          Gestor Cultural
+          <span class="divider" aria-hidden="true">|</span>
+          Artista Marcial
+        </p>
+        <div class="hero-links">
+          <a href="https://github.com/diegoreyesDev" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="social-link">
+            GH
+          </a>
+          <a href="https://www.linkedin.com/in/diegoreyes-dev/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-link">
+            IN
+          </a>
+          <a href="mailto:diegoreyes.dev@gmail.com" aria-label="Enviar correo" class="social-link">
+            @
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section id="sobre-mi" class="section">
+      <div class="container">
+        <h2 class="section-title">Acerca de mi</h2>
+        <div class="about-content">
+          <p>
+            Soy Diego Reyes, desarrollador Full Stack Java con experiencia en aplicaciones web dinamicas,
+            JEE, Spring Boot, Spring MVC, Spring Security y JPA, asi como en bases de datos Oracle.
+            Tambien tengo conocimientos en HTML, CSS y JavaScript.
+          </p>
+          <p>
+            Complemento mi perfil tecnico con experiencia en gestion cultural, gestion de proyectos
+            e instruccion en artes marciales, lo que me aporta una vision integral para el trabajo en equipo
+            y la resolucion de problemas complejos.
+          </p>
+          <p>
+            Actualmente vivo en Talagante, Region Metropolitana (Chile), donde me desempeno como gestor cultural
+            enfocado en la digitalizacion de datos para organizaciones comunitarias.
+            Me apasiona el desarrollo de aplicaciones Java y busco perfeccionarme continuamente
+            para crear soluciones que reduzcan la friccion del usuario final.
+          </p>
+        </div>
+
+        <h3 class="subsection-title">Stack tecnico</h3>
+        <ul class="tech-list">
+          <li class="tech-item">Java</li>
+          <li class="tech-item">Spring Boot</li>
+          <li class="tech-item">Spring MVC</li>
+          <li class="tech-item">Spring Security</li>
+          <li class="tech-item">JPA / Hibernate</li>
+          <li class="tech-item">Oracle DB</li>
+          <li class="tech-item">HTML5</li>
+          <li class="tech-item">CSS3</li>
+          <li class="tech-item">JavaScript</li>
+          <li class="tech-item">Git</li>
         </ul>
       </div>
-    </div>
-  </nav>
+    </section>
 
-  <!-- contenido de la pagina -->
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Proyectos</h2>
+        <p class="section-intro">
+          Proyectos realizados durante el Bootcamp de Talento Digital y trabajo independiente.
+        </p>
 
-  
-    <div class="page-wrapper">
-      <div>
+        <div class="projects-grid">
+
+          <!-- Proyecto 1 -->
+          <article class="project-card">
+            <div class="project-img">
+              <img src="./assets/img/ejemplopagina.png" alt="Vista previa del proyecto landing page" loading="lazy" width="600" height="340">
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Landing Page Personal</h3>
+              <p class="project-desc">Portafolio profesional estatico con diseno responsivo. HTML5 semantico, CSS moderno con custom properties, vanilla JavaScript. Desplegado en GitHub Pages.</p>
+              <div class="project-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">GitHub Pages</span>
+              </div>
+              <a href="https://github.com/diegoreyesDev/landing" target="_blank" rel="noopener noreferrer" class="btn-link">
+                Ver codigo &nearr;
+              </a>
+            </div>
+          </article>
+
+          <!-- Proyecto 2 -->
+          <article class="project-card">
+            <div class="project-img placeholder-img">
+              <span class="placeholder-text">Proximamente</span>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">API REST con Spring Boot</h3>
+              <p class="project-desc">API RESTful para gestion de datos con Spring Boot, Spring Security, JPA y base de datos Oracle. Documentacion con Swagger.</p>
+              <div class="project-tags">
+                <span class="tag">Java</span>
+                <span class="tag">Spring Boot</span>
+                <span class="tag">REST API</span>
+                <span class="tag">Oracle</span>
+              </div>
+              <a href="https://github.com/diegoreyesDev" target="_blank" rel="noopener noreferrer" class="btn-link">
+                Ver repositorio &nearr;
+              </a>
+            </div>
+          </article>
+
+          <!-- Proyecto 3 -->
+          <article class="project-card">
+            <div class="project-img placeholder-img">
+              <span class="placeholder-text">Proximamente</span>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Sistema de Gestion Cultural</h3>
+              <p class="project-desc">Aplicacion web para digitalizacion de datos en organizaciones culturales comunitarias. CRUD completo con autenticacion y roles.</p>
+              <div class="project-tags">
+                <span class="tag">Java</span>
+                <span class="tag">Spring MVC</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">Thymeleaf</span>
+              </div>
+              <a href="https://github.com/diegoreyesDev" target="_blank" rel="noopener noreferrer" class="btn-link">
+                Ver repositorio &nearr;
+              </a>
+            </div>
+          </article>
+
+        </div>
       </div>
-      <div class="content-wrapper">
-        <h1>Hola, Soy Diego Reyes Pallacan</h1>
-        <h5>
-          Desarrolador Java <span class="divider"> | </span> Artista Marcial
-          <span class="divider"> | </span> Psicologo Holistico <span class="divider"> | </span> Gestor Cultural
-        </h5>
-        <a target="_blank" href="https://twitter.com/perrolocoMC">
-          <i class="icon fab fa-twitter fa-2x"></i>
-        </a>
-        <a target="_blank" href="https://github.com/diegoreyesDev">
-          <i class="icon fab fa-github fa-2x"></i>
-        </a>
-        <a target="_blank" href="https://www.linkedin.com/in/diegoreyes-dev/">
-          <i class="icon fab fa-linkedin-in fa-2x"></i>
-        </a>
-        <a target="_blank" href="mailto:diegoreyes.dev@gmail.com">
-          <i class="icon fas fa-envelope fa-2x"></i>
-        </a>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section">
+      <div class="container">
+        <h2 class="section-title">Contacto</h2>
+        <p class="section-intro">
+          Si buscas un desarrollador con mentalidad resolutiva y experiencia multidisciplinaria,
+          contactame por cualquiera de estos canales.
+        </p>
+
+        <div class="contact-grid">
+          <a href="mailto:diegoreyes.dev@gmail.com" class="contact-card">
+            <span class="contact-icon" aria-hidden="true">@</span>
+            <span class="contact-label">Email</span>
+            <span class="contact-value">diegoreyes.dev@gmail.com</span>
+          </a>
+
+          <a href="https://github.com/diegoreyesDev" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <span class="contact-icon" aria-hidden="true">GH</span>
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">diegoreyesDev</span>
+          </a>
+
+          <a href="https://www.linkedin.com/in/diegoreyes-dev/" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <span class="contact-icon" aria-hidden="true">IN</span>
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">diegoreyes-dev</span>
+          </a>
+        </div>
       </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Diego Reyes Pallacan. Todos los derechos reservados.</p>
     </div>
+  </footer>
 
-  <!-- fin contenido de la pagina -->
-
-  <!-- Bootstrap popperjs -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-    crossorigin="anonymous"></script>
-  <!--bootstrap js-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-    crossorigin="anonymous"></script>
-  <!-- javascript propio -->
-  <script src="./assets/js/script.js" type="text/javascript"></script>
+  <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
